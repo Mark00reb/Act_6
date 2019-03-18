@@ -1,0 +1,5 @@
+Use SalesDB_A6 
+GO
+
+SELECT COUNT(Sale_ID) FROM Sale
+WHERE Emp_ID = 1 AND Sale_Quarter = 1;
